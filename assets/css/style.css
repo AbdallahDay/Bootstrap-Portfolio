@@ -1,0 +1,240 @@
+/*** GENERAL ***/
+
+body {
+    box-sizing: border-box;
+    background-color: #ccc;
+    background-image: url("../images/bg/escheresque.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 24pt;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+p {
+    line-height: 2em;
+    margin: 1rem 0;
+}
+
+hr {
+    border: 1.5px solid #dddddd;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*** HEADER ***/
+
+#header-container {
+    height: 100%;
+}
+
+.navbar, .navbar-nav, .container {
+    padding: 0;
+}
+
+#navbarNav {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#navbarNav .wrapper {
+    display: inline-block;
+}
+
+.navbar-header {
+    padding: 0;
+    height: 100%;
+    background-color: #4aaaa5;
+}
+
+.navbar-brand {
+    height: 100%;
+    cursor: pointer;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+}
+
+#header-container .row {
+    height: 100%;
+}
+
+#logo {
+    padding: 0 30px;
+    height: 100%;
+    width: 100%;
+}
+
+#logo h1 {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+a#logo:link,
+a#logo:visited,
+a#logo:hover,
+a#logo:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a#logo:hover {
+    background-color: #6ebbb7;
+}
+
+a#logo:active {
+    background-color: #3b8884;
+}
+
+.nav-link {
+    line-height: 1em;
+    padding: 0 !important;
+}
+
+.nav-link:link,
+.nav-link:visited,
+.nav-link:hover,
+.nav-link:active {
+    color: #777777;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.nav-item {
+    padding: 0 20px;
+    border-right: 1px solid #dddddd;
+}
+
+.nav-item:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+.nav-item:first-child {
+    padding-left: 0;
+}
+
+/*** CONTENT ***/
+
+h1.title {
+    margin: 0;
+}
+
+#main-content-container {
+    margin: 30px auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+#main-content-container .wrapper {
+    margin: 30px;
+}
+
+img#profile-pic {
+    float: left;
+    max-width: 200px;
+    max-height: 12rem;
+    margin: 1.5rem 20px 0.5rem 0;
+}
+
+/* Portfolio page */
+
+.portfolio-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+a.portfolio-item:hover .portfolio-item-text {
+    background-color: #6ebbb7;
+}
+
+a.portfolio-item:active .portfolio-item-text {
+    background-color: #3b8884;
+}
+
+.portfolio-item-image {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.portfolio-item-text {
+    width: 100%;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 5px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -25%;
+}
+
+/* Contact page */
+
+.contact-label {
+    float: left;
+    clear: both;
+}
+
+.contact-input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+}
+
+textarea#message {
+    height: 200px;
+}
+
+#submit-button {
+    float: left;
+    padding: 5px 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+a#submit-button:link,
+a#submit-button:visited,
+a#submit-button:hover,
+a#submit-button:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a#submit-button:hover {
+    background-color: #6ebbb7;
+}
+
+a#submit-button:active {
+    background-color: #3b8884;
+}
+
+/*** FOOTER ***/
+
+footer {
+    padding-top: 30px;
+    font-size: 8pt;
+    line-height: 2em;
+    border-top: 5px solid #4aaaa5;
+    color: #cccccc;
+    text-align: center;
+    background-color: #666666;
+}
