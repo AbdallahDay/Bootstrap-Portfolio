@@ -149,8 +149,7 @@ h1.title {
 
 img#profile-pic {
     float: left;
-    max-width: 200px;
-    max-height: 12rem;
+    width: 200px;
     margin: 1.5rem 20px 0.5rem 0;
 }
 
@@ -237,4 +236,11 @@ footer {
     color: #cccccc;
     text-align: center;
     background-color: #666666;
+}
+
+@media screen and (max-width: 425px) {
+    img#profile-pic {
+        width: 100%;
+        margin-top: 0;
+    }
 }
