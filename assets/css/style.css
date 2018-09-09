@@ -1,5 +1,10 @@
 /*** GENERAL ***/
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     box-sizing: border-box;
     background-color: #ccc;
@@ -226,18 +231,33 @@ a#submit-button:active {
 /*** FOOTER ***/
 
 footer {
-    padding-top: 30px;
+    padding-top: 25px;
     font-size: 8pt;
-    line-height: 2em;
     border-top: 5px solid #4aaaa5;
     color: #cccccc;
     text-align: center;
     background-color: #666666;
 }
 
+/* FOR STICKY FOOTER */
+.push {
+    height: 50px;
+}
+
+.push-wrapper {
+    min-height: calc(100% - 96px);
+    margin-bottom: -50px;
+}
+
 @media screen and (max-width: 425px) {
     img#profile-pic {
         width: 100%;
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .push-wrapper {
+        min-height: calc(100% - 150px);
     }
 }
