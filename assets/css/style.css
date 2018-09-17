@@ -190,44 +190,6 @@ a.portfolio-item:active .portfolio-item-text {
 
 /* Contact page */
 
-.contact-label {
-    float: left;
-    clear: both;
-}
-
-.contact-input {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #dddddd;
-}
-
-textarea#message {
-    height: 200px;
-}
-
-#submit-button {
-    float: left;
-    padding: 5px 20px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
-
-a#submit-button:link,
-a#submit-button:visited,
-a#submit-button:hover,
-a#submit-button:active {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a#submit-button:hover {
-    background-color: #6ebbb7;
-}
-
-a#submit-button:active {
-    background-color: #3b8884;
-}
-
 /*** FOOTER ***/
 
 footer {
